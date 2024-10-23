@@ -8,7 +8,71 @@
 </head>
 <body>
     
-    
+    <form class="form">
+        <div class="main-container">
+        <div class="form-contain">
+           
+              <h2 class="heading">Sign up</h2>
+          
+             <div class="name-box style-box">
+               <label class="style-lable">Name : </label>
+               <input type="text" class="input-box" placeholder="Name" required>
+             </div>
+            
+            <div class="email-box style-box">
+                <label class="style-lable">Email : </label>
+                <input type="email" class="input-box" placeholder="Email" required>
+            </div>
+
+
+             <div class="password-box style-box">
+               <label class="style-lable">Password : </label>
+                <input type="password" class="input-box" placeholder="Password" required>
+             </div>
+
+            <div class="confirm-box style-box"> 
+              <label class="style-lable">Confirm Password : </label>
+              <input type="password" class="input-box" placeholder="Confirm Password" required>
+            </div>
+
+            <div class=" style-box">
+             <input type="checkbox" id="checkbox1" required>
+             <label for="checkbox1" aria-required="true">I agree all statements in <a href="#">Terms of service</a></label>
+            </div>
+           
+            <div class="btn-box style-box">
+               <a href="./Successfulpage/Successful.html">
+               <input type="submit" class="register-btn" name="Register">
+                 </a>
+            </div>
+
+            <div class="already-login style-box">
+                <p class="login-para">Already have an account ?<a href="./login.html">Sign in</a></p>
+            </div>
+        </div>
+    </div>
+    </form>
+   
+    <div class="overlay">
+
+            <div class="box-modal">
+                <div class="check-box">
+                    <div class="message-box">
+                        <img class="checked-img" src="./../images/icons8-check.gif" alt="">
+                    </div>
+                    <div class="success-heading">
+                        <h2 class="Success-message">Registration Successfull</h2>
+                    </div>
+                    <div class="message-para">
+                        <p>Congratulations, your account has been Successfully Created</p>
+                    </div>
+                    <div class="btn-box">
+                       <a href="./../dashboard/dashboard.html"> <button class="btn">Continue</button></a>
+                    </div>
+                </div>
+            </div>
+            
+    </div>
 
     <script src="app.js"></script>
 </body>
