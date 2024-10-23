@@ -16,7 +16,7 @@
           
              <div class="name-box style-box">
                <label class="style-lable">Name : </label>
-               <input type="text" class="input-box" placeholder="Name" required>
+               <input type="text" class="input-box" placeholder="Name">
              </div>
             
             <div class="email-box style-box">
@@ -42,7 +42,7 @@
            
             <div class="btn-box style-box">
                <a href="./Successfulpage/Successful.html">
-               <input type="submit" class="register-btn" name="Register">
+               <input type="submit" class="register-btn" onclick="openModel()" name="Register">
                  </a>
             </div>
 
@@ -53,7 +53,7 @@
     </div>
     </form>
    
-    <div class="overlay">
+    <div class="overlay" id="overlay">
 
             <div class="box-modal">
                 <div class="check-box">
@@ -61,13 +61,13 @@
                         <img class="checked-img" src="./../images/icons8-check.gif" alt="">
                     </div>
                     <div class="success-heading">
-                        <h2 class="Success-message">Registration Successfull</h2>
+                        <h2 class="Success-message">Registration Successful</h2>
                     </div>
                     <div class="message-para">
                         <p>Congratulations, your account has been Successfully Created</p>
                     </div>
                     <div class="btn-box">
-                       <a href="./../dashboard/dashboard.html"> <button class="btn">Continue</button></a>
+                       <a href="#"> <button class="btn" onclick="closeModel()" >Continue</button></a>
                     </div>
                 </div>
             </div>

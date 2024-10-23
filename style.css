@@ -81,12 +81,11 @@
     left: 0;
     width: 100%;
     height: 100%;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
 }
 
-/* ////////////////////////////////// */
 
 .box-modal{
     height: 340px;
