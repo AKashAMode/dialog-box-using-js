@@ -114,10 +114,12 @@
 }
 
 .btn{
-    padding: 5px;
+    padding: 8px;
     border: 2px solid #000;
     width: 90px;
     color: #fff;
+    font-size: 15px;
     background-color: rgb(11, 117, 43);
     border-radius: 5px;
+    cursor: pointer;
 }
